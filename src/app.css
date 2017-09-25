@@ -1,0 +1,170 @@
+body {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+  
+  .top-row div {
+    display: inline-block;
+  }
+  
+  .view-holder {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  .create-record {
+    float: right;
+  }
+  
+  .card {
+    background: #eee;
+    border: 1px solid #ddd;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+    width: 256px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .content {
+    background: white;
+    height: 100%;
+  }
+  
+  
+  .extra {
+    text-align: right;
+  }
+  
+  .icon {
+    background: #ccc;
+    /*color: white;*/
+    width: 56px;
+    border: 1px solid #999;
+    font-size: .66em;
+    font-weight: bold;
+    margin: 2px;
+    padding: 4px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  button {
+    background: white;
+    border: none;
+  }
+  
+  .control_button01 {
+    background: #eef;
+    border: 1px solid #ccc;
+    width: 96px;
+    padding: 4px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .button {
+    background: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  .button:hover, button:hover {
+    opacity: 0.66;
+  }
+  
+  .above_it_all {
+    left: calc(50% - 128px);
+    top: 50px;
+    position: fixed;
+    z-index: 3;
+  }
+  
+  .lightbox {
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  
+    position: fixed;
+    z-index: 2;
+  }
+  .completed {
+    opacity: 0.33;
+  }
+  
+  .bg_white {
+    background: white;
+  }
+  
+  .bg_light_blue {
+    background: #eef;
+  }
+  
+  .blue {
+    color: #234567;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .inline_block {
+    display: inline-block;
+  }
+  
+  .border_box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  .width50per {
+    width: 50%;
+  }
+  
+  .width128px {
+      width: 128px;
+  }
+  .text_center {
+    text-align: center;
+  }
+  .text_left {
+    text-align: left
+  }
+  .text_right {
+    text-align: right;
+  }
+  
+  .text_xxl {
+      font-size: 2em;
+  }
+  .text_xl {
+      font-size: 1.5em;
+  }
+  .text_lg {
+      font-size: 1.25em;
+  }
+  .text_md {
+      font-size: 1em;
+  }
+  .text_sm {
+      font-size: .75em;
+  }
+  .text_xs {
+      font-size: .5em;
+  }
+  

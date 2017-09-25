@@ -11,7 +11,7 @@
       <ul class="todo-list">
         <!-- These are here just to show the structure of the list items -->
         <!-- List items should get the class `editing` when editing and `completed` when marked as completed -->
-        <div v-for="(todo, index) in todosInView">
+        <div v-for="(todo, index) in todosInView" :key="todo.index">
           <todo-item :todo="todo" @toggleCompleted="toggleCompleted(index)" @removeSelf="removeTodo(index)" />
         </div>
       </ul>
