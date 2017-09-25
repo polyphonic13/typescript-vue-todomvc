@@ -13,6 +13,7 @@ const routes = viewNames.map((view): RouteConfig => ({
 }));
 
 const router = new VueRouter({
+    mode: 'history',
     routes,
 });
 
