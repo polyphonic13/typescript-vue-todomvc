@@ -13,6 +13,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "axios": "^0.16.2",
     "todomvc-app-css": "^2.1.0",
     "todomvc-common": "^1.0.3",
     "vue": "https://github.com/DanielRosenwasser/vue#540a38fb21adb7a7bc394c65e23e6cffb36cd867",
